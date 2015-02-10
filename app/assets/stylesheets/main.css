@@ -1,0 +1,82 @@
+/*
+ MAIN INDEX
+*/
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic);
+
+div.main {
+  width: 480px;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Playfair Display', serif;
+  color: #666;
+}
+
+
+div.main div.option {
+  float: left;
+  margin-right: 25px;
+  margin-left: 25px;
+  height: 200px;
+  width: 200px;
+  border-radius: 999px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+div.main div.model {
+  background-image: url('main_model.jpg');
+}
+
+div.main div.photoshoot {
+  background-image: url('main_photoshoot.jpg');
+}
+
+div.main img {
+  height: 200px;
+}
+
+div.main h1 {
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 20px;
+  text-align: center;
+  word-wrap: break-word;
+  font-weight: 400;
+  padding-top: 1em;
+    font-size: 28px;
+}
+
+div.main p.order {
+  width: 255px;
+  margin-top: 20px;
+  font-size: 1.4em;
+  text-align: center;
+  float: left;
+}
+
+div.main p.order a {
+  color: #666;
+}
+
+/*
+ FINISH
+*/
+
+div.finish {
+  margin: 190px auto;
+  width: 800px;
+font-family: 'Playfair Display', serif;
+}
+
+div.finish img {
+  width: 800px;
+}
+
+div.finish a {
+  color: #666;
+  font-size: 1.4em;
+  float: right;
+  margin-top: 30px;
+}

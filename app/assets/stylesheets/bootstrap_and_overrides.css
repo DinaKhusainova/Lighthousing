@@ -1,0 +1,156 @@
+/*
+  =require twitter-bootstrap-static/bootstrap
+
+  Use Font Awesome icons (default)
+  To use Glyphicons sprites instead of Font Awesome, replace with "require twitter-bootstrap-static/sprites"
+  =require twitter-bootstrap-static/fontawesome
+  */
+@font-face {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'ando';
+    src: url('http://lighthousing.eu/wordpress/wp-content/themes/lighthousing-2/fonts/ando_regular-webfont.eot');
+    src: url('http://lighthousing.eu/wordpress/wp-content/themes/lighthousing-2/fonts/ando_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://lighthousing.eu/wordpress/wp-content/themes/lighthousing-2/fonts/ando_regular-webfont.woff') format('woff'),
+         url('http://lighthousing.eu/wordpress/wp-content/themes/lighthousing-2/fonts/ando_regular-webfont.ttf') format('truetype'),
+         url('http://lighthousing.eu/wordpress/wp-content/themes/lighthousing-2/fonts/ando_regular-webfont.svg#andoregular') format('svg');
+}
+
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic);
+body{
+background-color: #fafafa;
+}
+
+.container{
+
+  width:100%;
+}
+
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner{    
+-webkit-box-shadow:none; 
+-moz-box-shadow: none;
+box-shadow: none; 
+}
+
+.navbar-inner{
+min-height: 147px;
+padding-left: 0px;
+padding-right: 0px;
+background-color: #fff;
+background-image: none;
+/*background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
+background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);*/
+border: none;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+text-align: center;
+}
+
+
+.navbar .brand{
+margin: 22px 0 0 0;
+color: #666;
+text-align: center;
+text-transform: uppercase;
+font-weight: 400;
+font-size: 62px;
+font-family: 'ando', Helvetica, Arial, Sans-serif;
+line-height: 50px;
+/*margin-right: 50px;
+float: left;*/
+clear:both;  
+    float: none;
+}
+
+.navbar .nav{
+clear:both;  
+    float: none;
+    text-align: center;
+      font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 16px;
+    display: inline;;
+    text-align: center;
+
+}
+
+.navbar .nav>li{
+float: none;
+    display: inline;
+}
+
+.nav>li>a{
+display: inline;
+}
+
+div.main p.order a:hover{
+    text-decoration: none;
+    color: #5ea7b9 !important;
+}
+
+.btn-info:hover, .btn-primary:hover{
+background: #5ea7b9 !important;
+}
+
+.btn-info, .btn-primary{
+background: #98c0ca !important;
+    text-shadow: none;
+    border-color: none;
+    border: none;
+    padding: 7px 10px 7px 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+.btn-warning{
+    background: #f89406 !important;
+        text-shadow: none;
+    border-color: none;
+    border: none;
+    padding: 7px 10px 7px 10px;
+}
+
+.btn-warning:hover{
+    background: #f89406;
+}
+
+.btn{
+         text-shadow: none;
+    border-color: none;
+    border: none;
+background: #d6d6d6;
+    color: #fff;
+}
+
+.btn:hover{
+background: #b6b6b6;
+    color: #fff;
+}
+
+.help-block{
+ color: #b94a48;
+}
+ .pull-right{
+  float: none !important;
+  margin:none !important;
+  clear: both !important;
+}
+
+
+ul.nav{
+display: inline;;
+
+}
+
+ .pull-right>li>a{
+  float: none !important;
+  margin:none !important;
+  clear: both !important;
+  margin-left: 0px !important;
+  padding-left: 0px !important;
+}

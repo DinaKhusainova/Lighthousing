@@ -1,0 +1,8 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic);
+div.orders {
+  margin-top: 70px !important;
+  font-family: 'Playfair Display', serif;
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}

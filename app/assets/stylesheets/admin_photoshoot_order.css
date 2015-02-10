@@ -1,0 +1,10 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic);
+div.container.admin_photoshoot_order {
+  width: 600px;
+  margin: 70px auto;
+  font-family: 'Playfair Display', serif;
+}
+
+div.container.admin_photoshoot_order a.back {
+  margin-top: 220px;
+}

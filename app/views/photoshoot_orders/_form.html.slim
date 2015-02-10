@@ -1,0 +1,7 @@
+.form
+  = simple_form_for photoshoot_order do |f|
+    = f.error_notification
+    = f.input :name
+    = f.input :email
+    = f.input :message
+    = f.submit 'Send request', class: 'btn btn-big btn-primary'

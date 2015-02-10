@@ -1,0 +1,29 @@
+.container.photoshoot_order
+
+  = link_to image_url('photoshoot_1.jpg'), target: '_blank' do
+    = image_tag 'photoshoot_1.jpg'
+  = link_to image_url('photoshoot_2.jpg'), target: '_blank' do
+    = image_tag 'photoshoot_2.jpg'
+  = link_to image_url('photoshoot_3.jpg'), target: '_blank' do
+    = image_tag 'photoshoot_3.jpg'
+
+  = link_to image_url('photoshoot_4.jpg'), target: '_blank' do
+    = image_tag 'photoshoot_4.jpg'
+  = link_to image_url('photoshoot_5.jpg'), target: '_blank' do
+    = image_tag 'photoshoot_5.jpg'
+  = link_to image_url('photoshoot_6.jpg'), target: '_blank' do
+    = image_tag 'photoshoot_6.jpg'
+
+  br
+  br
+
+  .info
+    p  - portrait photoshoot (1,5 - 2 hours, 20 or more retouched photos, 1500czk)
+    p - bussines portrait (1 hour, 10 retouched photos, 800czk)
+    p - love story (1,5 - 2 hours, 25 or more retouched photos, 2000czk)
+    p Location: Czech Republic Brno
+
+  = render 'form', photoshoot_order: @photoshoot_order
+
+  br
+  = link_to 'Back', root_path, class: 'btn'

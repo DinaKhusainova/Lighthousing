@@ -1,0 +1,12 @@
+.container.admin_model_order
+
+  p= "#{@model_order.type} from: #{@model_order.name}, #{l @model_order.created_at, format: :short}, email: #{@model_order.email}"
+  br
+  - @model_order.photos.each do |photo|
+    = link_to photo.image.url, target: '_blank' do
+      = image_tag photo.image.url
+  br
+  br
+  p= @model_order.message
+
+  = link_to 'Back', admin_orders_path, class: 'btn btn-default back'

@@ -1,0 +1,10 @@
+.container.main
+  .row
+    h1 I'd like to..
+  .row
+    = link_to model_orders_path do
+      .option.model
+    = link_to photoshoot_orders_path do
+      .option.photoshoot
+    p.order= link_to 'Be a model (TFP)', model_orders_path
+    p.order= link_to 'Order a photoshoot', photoshoot_orders_path

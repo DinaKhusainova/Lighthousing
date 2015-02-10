@@ -1,0 +1,21 @@
+.container.orders
+  table.table
+    thead
+      tr
+        th Type
+        th Name
+        th Email
+        th Message
+        th Created at
+        th
+    tbody
+      - @orders.each do |order|
+        tr
+          td= order.type
+          td= link_to order.name, [:admin, order]
+          td= order.email
+          td= order.message
+          td= l order.created_at, format: :short
+          td
+            => link_to 'Show', [:admin, order], class: 'btn btn-success'
+            = link_to 'Delete', [:admin, order], method: :delete, class: 'btn btn-danger', data: { confirm: 'Are you sure?' }

@@ -1,0 +1,7 @@
+.container.admin_photoshoot_order
+
+  p= "#{@photoshoot_order.type} from: #{@photoshoot_order.name}, #{l @photoshoot_order.created_at, format: :short}, email: #{@photoshoot_order.email}"
+  br
+  p= @photoshoot_order.message
+
+  = link_to 'Back', admin_orders_path, class: 'btn btn-default back'

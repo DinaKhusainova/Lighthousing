@@ -1,0 +1,30 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic);
+
+div.photoshoot_order {
+  margin: 100px auto;
+  width: 500px;
+  font-family: 'Playfair Display', serif;
+}
+
+div.photoshoot_order img {
+  width: 164px;
+  margin: 1px;
+}
+
+div.photoshoot_order div.info {
+  width: 480px;
+  margin: 0 auto;
+}
+
+div.photoshoot_order div.form {
+  width: 100%;
+  margin: 50px auto;
+}
+
+div.photoshoot_order div.form input, textarea {
+  width: 100%;
+}
+
+div.photoshoot_order div.form input.btn {
+  width: 60%;
+}

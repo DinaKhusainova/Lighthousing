@@ -1,0 +1,26 @@
+.container.model_order
+
+  = link_to image_url('model_1.jpg'), target: '_blank' do
+    = image_tag 'model_1.jpg'
+  = link_to image_url('model_2.jpg'), target: '_blank' do
+    = image_tag 'model_2.jpg'
+  = link_to image_url('model_3.jpg'), target: '_blank' do
+    = image_tag 'model_3.jpg'
+
+  = link_to image_url('model_4.jpg'), target: '_blank' do
+    = image_tag 'model_4.jpg'
+  = link_to image_url('model_5.jpg'), target: '_blank' do
+    = image_tag 'model_5.jpg'
+  = link_to image_url('model_6.jpg'), target: '_blank' do
+    = image_tag 'model_6.jpg'
+
+  br
+  br
+
+  .info
+    p I'm always looking for new interesting faces. Maybe, exactly You will be next?
+
+  = render 'form', model_order: @model_order
+
+  br
+  = link_to 'Back', root_path, class: 'btn'
