@@ -3,11 +3,12 @@
     .container
       = link_to 'Lighthousing for You', root_path, class: 'brand'
       ul.nav
-        li= link_to '​Back to the blog', 'http://www.lighthousing.eu/en/', target: '_blank'
+        li= link_to '​Back to the blog', 'http://www.lighthousing.eu/en/', target: '_self'
         li= link_to 'Facebook', 'http://facebook.com/lighthousing.eu', target: '_blank'
         li= link_to '​Vkontakte​­', 'http://vk.com/club68707545', target: '_blank'
         li= link_to 'Instagram', 'http://instagram.com/lighthousing', target: '_blank'
         - if admin_signed_in?
+          li= link_to 'Admin', admin_root_path
           li= link_to 'Log out', destroy_admin_session_path, method: :delete
 
       ul.nav.right.pull-right
