@@ -16,3 +16,11 @@ gem 'sqlite3'
 gem 'therubyracer'
 gem 'twitter-bootstrap-rails'
 gem 'uglifier', '>= 1.3.0'
+
+group :development, :test do
+ gem 'rspec-rails', '~> 2.0'
+end
+
+group :test do
+ gem 'capybara', '~> 2.1.0'
+end
