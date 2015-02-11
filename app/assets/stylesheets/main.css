@@ -65,13 +65,14 @@ div.main p.order a {
 */
 
 div.finish {
-  margin: 190px auto;
-  width: 800px;
+  margin: 20px auto;
+  width: 600px;
 font-family: 'Playfair Display', serif;
 }
 
 div.finish img {
-  width: 800px;
+  width: 600px;
+  height: 400px;
 }
 
 div.finish a {
