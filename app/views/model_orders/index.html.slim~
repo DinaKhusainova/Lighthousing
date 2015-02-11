@@ -18,8 +18,7 @@
   br
 
   .info
-    p Would You like to try?
-    p I'm always looking for new interesting faces. Maybe, exactly You will be next...just fill in the form
+    p I'm always looking for new interesting faces. Maybe, exactly You will be next?
 
   = render 'form', model_order: @model_order
 
